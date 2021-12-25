@@ -1,5 +1,4 @@
 // Circular Gallifreyan javascript
-// jshint maxerr:500
 
 /****************************************
  * Canvas Setup
