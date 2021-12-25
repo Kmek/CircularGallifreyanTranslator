@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Monospace, Arial, "Times New Roman";
+}
+
+#main-page{
+    background-color: #3d3d3d;
+    width: 675px;
+    min-height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+    color: white;
+    
+}
+
+canvas {
+    border-radius: 10px;
+}
+
+#textbox {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #0d0d2a;
+    font-family: inherit;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#menuDiv {
+    background-color: #0d0d2a;
+    opacity: 0.85;
+    width: 645px;
+    margin-left: 12.5px;
+    position: absolute;
+    padding: 10px 0;
+    visibility: hidden;
+    
+    border-radius: 10px;
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: white;
+}
+
+ul {
+    float: left;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+    height: 35px;
+    margin-left: 40px;
+}
+
+input[type=checkbox]{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+input[type=color]{
+    margin-right: 32px;
+    width: 50px;
+}
+
+input[type=range]{
+    margin-right: 30px;
+    width: 300px;
+}
+
+input[type=number]{
+    margin-right: 32px;
+    width: 50px;
+    text-align: center;
+}

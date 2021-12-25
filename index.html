@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/dba782a9-b78c-4f63-8302-dbafc8ae6b7a/dac9wm2-cf06ccc2-f3f9-48ce-aa5d-1951dcf9df28.png">
+    <title>Circular Gallifreyan Translator</title>
+</head>
+
+<body>
+    <div id="main-page">
+        
+        <div class="row">
+            <input type="text" id="textbox" placeholder="Circular Gallifreyan Translator" value="Circular Gallifreyan Translator spirals for days">
+            <button onClick="getText();">Translate</button>
+            <button onClick="toggleMenu();">...</button>
+        </div>
+        
+        <div id="menuDiv">
+            <ul>
+                <li><input type="checkbox" id="showTitle"><span>Show Title</span></li>
+                <li><input type="checkbox" id="showWords"><span>Show Words</span></li>
+                <li><input type="checkbox" id="showLetters"><span>Show Letters</span></li>
+                <li><input type="checkbox" id="showAlphabet"><span>Show Alphabet</span></li>
+                <li><input type="color" id="backColor1" value="#0d0d2a"><span>Background Color Outside</span></li>
+                <li><input type="color" id="backColor2" value="#0d0d2a"><span>Background Color Inside</span></li>
+                <li><input type="color" id="textColor1" value="#808080"><span>1st Text Color</span></li>
+                <li><input type="color" id="textColor2" value="#FFFFFF"><span>2nd Text Color</span></li>
+                <li><input type="checkbox" id="formSpiral"><span>Form Spiral</span></li>
+                <li><input type="range" id="spiralDegrees" min="5" value="30" max="100"><span>Spiral Total Degrees</span></li>
+                <li><input type="range" id="scaleSpiral" min="0" value="2" max="30"><span>Scale Spiral</span></li>
+                <li><input type="number" id="inputH" min="0" value="650" max="1000"><span>Height</span></li>
+                <li><input type="number" id="inputW" min="0" value="650" max="1000"><span>Width</span></li>
+                <li><input type="range" id="scaleSize" min="0" value="50" max="200"><span>Scale Canvas</span></li>
+            </ul>
+        </div>
+        
+        <div class="row">
+            <canvas width="650px" height="650px" id="myCanvas"></canvas> 
+        </div>
+        
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
